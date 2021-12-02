@@ -11399,3 +11399,18 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-01 18:13:55.395
 !MESSAGE executing callback sts4.classpath.zektxnBo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-01 18:36:25.746
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-01 18:36:25.748
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-01 18:36:25.748
+!MESSAGE buffering callback sts4.classpath.zektxnBo prs-jdbc false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-01 18:36:25.749
+!MESSAGE executing callback sts4.classpath.zektxnBo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-01 18:36:25.751
+!MESSAGE executing callback sts4.classpath.zektxnBo SUCCESS [done]
