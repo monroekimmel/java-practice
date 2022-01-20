@@ -12019,3 +12019,925 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-17 19:07:59.031
 !MESSAGE executing callback sts4.classpath.ZFnlGYOy SUCCESS [done]
+!SESSION 2022-01-19 19:25:40.443 -----------------------------------------------
+eclipse.buildId=4.7.1.202007271558-RELEASE
+java.version=1.8.0_282
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-01-19 19:25:44.749
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2022-01-19 19:25:49.269
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-01-19 19:25:49.269
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.jface 2 0 2022-01-19 19:25:51.294
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-19 19:25:51.294
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@579dde54,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@30b9728f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:56.064
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:56.064
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@28dd038f[org.springframework.tooling.boot.ls:1.20.0.202007271426(id=635)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:56.077
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:56.186
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-01-19 19:25:57.320
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Roe'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:57.694
+!MESSAGE Boot LS startup time from start to initialized: 1613ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:57.734
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PmxGqamxisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:57.735
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:57.736
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:57.737
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:57.739
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:57.740
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:57.740
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:57.741
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PmxGqamx => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:57.745
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:57.746
+!MESSAGE buffering callback sts4.classpath.PmxGqamx prs-jdbc false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:57.746
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:57.747
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:57.748
+!MESSAGE buffering callback sts4.classpath.PmxGqamx JDBCExample false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:57.749
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.578
+!MESSAGE classpath=21 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.579
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab01.1 false 21
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.580
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.583
+!MESSAGE classpath=21 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.585
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab01.2 false 21
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.585
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.592
+!MESSAGE classpath=51 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.593
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab01.5 false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.594
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.604
+!MESSAGE classpath=51 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.608
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab02.1 false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.609
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.613
+!MESSAGE classpath=23 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.614
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab03.1 false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.615
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.618
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.621
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab03.2-NoBoot false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.622
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.627
+!MESSAGE classpath=23 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.629
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab03.3 false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.629
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.631
+!MESSAGE classpath=12 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.634
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab04.1 false 12
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.635
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.641
+!MESSAGE classpath=51 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.644
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab04.2 false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.644
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.650
+!MESSAGE classpath=53 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.652
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab05.1 false 53
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.652
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.655
+!MESSAGE classpath=53 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.657
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab05.2 false 53
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.658
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.663
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.665
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab05.3 false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.666
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.671
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.675
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab06.1 false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.675
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.714
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.717
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab06.2 false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.718
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.722
+!MESSAGE classpath=23 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.723
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab07.1 false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.724
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.733
+!MESSAGE classpath=41 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.735
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab07.2 false 41
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.741
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.764
+!MESSAGE classpath=47 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.766
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab08.2 false 47
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.766
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.769
+!MESSAGE classpath=47 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.770
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab09.1 false 47
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.771
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.773
+!MESSAGE classpath=39 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.774
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab09.1-Client false 39
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.775
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.780
+!MESSAGE classpath=44 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.782
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab10.1 false 44
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.782
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.785
+!MESSAGE classpath=39 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.786
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab10.1-Client false 39
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.786
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.789
+!MESSAGE classpath=23 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.790
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab11.1 false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.791
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.796
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.798
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab11.2 false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.799
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.804
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.808
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab11.2_Solution false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.808
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.812
+!MESSAGE classpath=43 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.814
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab12.1 false 43
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.815
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.818
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.819
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab12.2 false 26
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.820
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.824
+!MESSAGE classpath=37 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.825
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab12.3 false 37
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.825
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.831
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.834
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab12.4 false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.834
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.839
+!MESSAGE classpath=53 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.841
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab13.1 false 53
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.841
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.844
+!MESSAGE classpath=59 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.853
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab13.1-Client false 59
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.853
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.857
+!MESSAGE classpath=65 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.860
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab13.1-Client-Sync false 65
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.860
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.864
+!MESSAGE classpath=44 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.866
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab13.1-Synch false 44
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.866
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.872
+!MESSAGE classpath=77 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.874
+!MESSAGE buffering callback sts4.classpath.PmxGqamx Lab13.2 false 77
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.875
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.876
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.877
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch01_ex1_Invoice false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.877
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.878
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.879
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch01_ex1_TestScore false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.880
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.882
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.883
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch02_ex1_Invoice false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.883
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.884
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.885
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch02_ex2_TestScore false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.885
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.887
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.888
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch02_ex3_Invoice false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.888
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.889
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.890
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch03_ex1_MPG false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.891
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.892
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.893
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch03_ex2_TestScore false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.893
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.894
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.895
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch04_ex1_FutureValue false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.895
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.896
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.897
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch04_ex2_Invoice false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.897
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.899
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.899
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch04_ex3_GuessNumber false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.900
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.900
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.901
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch04_ex4_FutureValue false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.902
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.903
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.903
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch05_ex1_FutureValue false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.904
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.905
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.906
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch05_ex2_GuessNumber false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.906
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.907
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.908
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch06_ex1_Invoice false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.908
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.909
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.910
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch06_ex2_FutureValue false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.910
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.912
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.912
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch06_ex3_FutureValue false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.913
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.914
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.915
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch06_ex4_FutureValue false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.915
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.917
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.917
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch07_ex1_Product false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.918
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.919
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.920
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch07_ex2_FutureValue false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.920
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.921
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.922
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch07_ex3_AreaAndPerimeter false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.922
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.923
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.924
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch08_ex1_Product false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.924
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.926
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.926
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch08_ex2_Product false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.927
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.928
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.929
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch08_ex3_EqualsTest false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.929
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.931
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.932
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch09_ex1_DisplayableTest false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.932
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.934
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.934
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch09_ex2_CloneableTest false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.935
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.936
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.937
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch10_ex1_LineItem false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.937
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.938
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.939
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch10_ex1_Product false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.940
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.941
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.942
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch10_ex2_LineItem false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.942
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.943
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.944
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch10_ex3_Enumeration false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.944
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.946
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.946
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch11_ex1_MonthSales false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.947
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.948
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.948
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch11_ex2_FutureValue false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.949
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.950
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.951
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch11_ex3_SortedCustomers false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.951
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.952
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.953
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch11_ex4_CardDeck false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.953
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.954
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.955
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch12_ex1_CardDeck false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.955
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.957
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.957
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch12_ex2_FutureValue false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.958
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.959
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.959
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch12_ex3_GenericStack false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.960
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.961
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.962
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch13_ex1_NameParser false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.962
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.963
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.963
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch13_ex2_FutureValue false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.964
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.965
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.965
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch14_ex1_Invoice false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.966
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.967
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.968
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch14_ex2_AgeCalculator false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.968
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.969
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.970
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch15_ex1_CustomerManager false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.970
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.972
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.972
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch15_ex2_ProductManager false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.973
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.974
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.975
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch15_ex3_ProductManager false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.975
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.976
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.977
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch16_ex1_ExceptionTester false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.977
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.978
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.979
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch16_ex2_ResourcesTester false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.980
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.981
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.982
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch16_ex3_CustomTester false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.982
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.983
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.984
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch17_ex1_MPGFX false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.984
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.985
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.986
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch17_ex2_MPGFXML false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.986
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.987
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.988
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch18_ex1_FutureValue false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.988
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.989
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.990
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch18_ex2_AreaAndPerimeter false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.990
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.991
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.992
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch19_ex1_FutureValue false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.992
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.993
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.994
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch19_ex2_PizzaOrder false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.995
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.996
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.997
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch21_ex1_DBTester false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.997
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.998
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.999
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch21_ex2_ProductManager false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:25:59.999
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:26:00.001
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:26:00.001
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch22_ex1_BookCatalog false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:26:00.002
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:26:00.003
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:26:00.004
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch22_ex2_BookCatalog false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:26:00.004
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:26:00.006
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:26:00.006
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch23_ex1_Counter false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:26:00.007
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:26:00.008
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:26:00.009
+!MESSAGE buffering callback sts4.classpath.PmxGqamx ch23_ex2_Counter false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:26:00.009
+!MESSAGE executing callback sts4.classpath.PmxGqamx 93 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 19:26:00.116
+!MESSAGE executing callback sts4.classpath.PmxGqamx SUCCESS [done]
