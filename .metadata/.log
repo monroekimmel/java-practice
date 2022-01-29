@@ -15833,3 +15833,925 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-26 18:06:56.181
 !MESSAGE executing callback sts4.classpath.JYZjzfms SUCCESS [done]
+!SESSION 2022-01-29 10:34:12.525 -----------------------------------------------
+eclipse.buildId=4.7.1.202007271558-RELEASE
+java.version=1.8.0_282
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-01-29 10:34:15.295
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2022-01-29 10:34:16.684
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-01-29 10:34:16.684
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.jface 2 0 2022-01-29 10:34:17.978
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-29 10:34:17.978
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3dbbed3e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@56d5460f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:21.387
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:21.388
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2bbaf1bc[org.springframework.tooling.boot.ls:1.20.0.202007271426(id=635)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:21.389
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:21.454
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-01-29 10:34:22.516
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Roe'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.154
+!MESSAGE Boot LS startup time from start to initialized: 1759ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.183
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.VnskuQCTisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.184
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.185
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.186
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.187
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.188
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.188
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.189
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.VnskuQCT => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.192
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.193
+!MESSAGE buffering callback sts4.classpath.VnskuQCT prs-jdbc false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.194
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.195
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.196
+!MESSAGE buffering callback sts4.classpath.VnskuQCT JDBCExample false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.197
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.939
+!MESSAGE classpath=21 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.941
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab01.1 false 21
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.941
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.946
+!MESSAGE classpath=21 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.947
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab01.2 false 21
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.948
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.956
+!MESSAGE classpath=51 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.958
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab01.5 false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.959
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.971
+!MESSAGE classpath=51 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.973
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab02.1 false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.974
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.982
+!MESSAGE classpath=23 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.983
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab03.1 false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.984
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.991
+!MESSAGE classpath=11 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.992
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab03.2-NoBoot false 11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:23.993
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.001
+!MESSAGE classpath=23 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.002
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab03.3 false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.003
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.006
+!MESSAGE classpath=12 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.007
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab04.1 false 12
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.008
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.014
+!MESSAGE classpath=51 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.016
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab04.2 false 51
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.017
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.021
+!MESSAGE classpath=53 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.023
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab05.1 false 53
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.024
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.027
+!MESSAGE classpath=53 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.030
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab05.2 false 53
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.031
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.034
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.036
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab05.3 false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.036
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.040
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.042
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab06.1 false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.043
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.049
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.052
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab06.2 false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.053
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.057
+!MESSAGE classpath=23 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.058
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab07.1 false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.059
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.063
+!MESSAGE classpath=41 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.065
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab07.2 false 41
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.065
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.072
+!MESSAGE classpath=47 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.075
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab08.2 false 47
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.076
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.080
+!MESSAGE classpath=47 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.085
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab09.1 false 47
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.086
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.168
+!MESSAGE classpath=39 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.170
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab09.1-Client false 39
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.171
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.180
+!MESSAGE classpath=44 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.182
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab10.1 false 44
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.182
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.187
+!MESSAGE classpath=39 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.188
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab10.1-Client false 39
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.189
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.192
+!MESSAGE classpath=23 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.194
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab11.1 false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.194
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.199
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.203
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab11.2 false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.203
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.210
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.213
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab11.2_Solution false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.214
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.218
+!MESSAGE classpath=43 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.220
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab12.1 false 43
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.221
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.224
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.225
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab12.2 false 26
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.225
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.230
+!MESSAGE classpath=37 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.231
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab12.3 false 37
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.232
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.236
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.239
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab12.4 false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.239
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.244
+!MESSAGE classpath=53 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.248
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab13.1 false 53
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.248
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.255
+!MESSAGE classpath=59 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.259
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab13.1-Client false 59
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.260
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.265
+!MESSAGE classpath=65 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.267
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab13.1-Client-Sync false 65
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.268
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.271
+!MESSAGE classpath=44 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.273
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab13.1-Synch false 44
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.273
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.277
+!MESSAGE classpath=77 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.279
+!MESSAGE buffering callback sts4.classpath.VnskuQCT Lab13.2 false 77
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.280
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.281
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.282
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch01_ex1_Invoice false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.282
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.283
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.284
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch01_ex1_TestScore false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.284
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.286
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.287
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch02_ex1_Invoice false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.287
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.288
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.289
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch02_ex2_TestScore false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.289
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.291
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.292
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch02_ex3_Invoice false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.292
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.294
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.295
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch03_ex1_MPG false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.295
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.297
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.298
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch03_ex2_TestScore false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.298
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.300
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.300
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch04_ex1_FutureValue false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.301
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.302
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.303
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch04_ex2_Invoice false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.303
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.304
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.305
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch04_ex3_GuessNumber false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.306
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.308
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.309
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch04_ex4_FutureValue false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.309
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.311
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.311
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch05_ex1_FutureValue false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.311
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.312
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.313
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch05_ex2_GuessNumber false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.313
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.314
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.315
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch06_ex1_Invoice false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.315
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.317
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.317
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch06_ex2_FutureValue false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.318
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.319
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.319
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch06_ex3_FutureValue false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.320
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.321
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.322
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch06_ex4_FutureValue false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.322
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.324
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.324
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch07_ex1_Product false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.325
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.326
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.327
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch07_ex2_FutureValue false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.327
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.328
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.329
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch07_ex3_AreaAndPerimeter false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.329
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.330
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.331
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch08_ex1_Product false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.331
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.332
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.333
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch08_ex2_Product false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.333
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.335
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.335
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch08_ex3_EqualsTest false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.336
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.337
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.338
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch09_ex1_DisplayableTest false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.338
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.339
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.340
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch09_ex2_CloneableTest false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.340
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.341
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.342
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch10_ex1_LineItem false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.342
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.344
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.344
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch10_ex1_Product false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.345
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.346
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.347
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch10_ex2_LineItem false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.347
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.348
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.349
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch10_ex3_Enumeration false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.349
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.350
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.351
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch11_ex1_MonthSales false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.351
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.353
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.353
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch11_ex2_FutureValue false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.354
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.355
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.356
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch11_ex3_SortedCustomers false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.356
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.357
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.358
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch11_ex4_CardDeck false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.358
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.360
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.361
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch12_ex1_CardDeck false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.362
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.363
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.364
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch12_ex2_FutureValue false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.364
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.365
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.366
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch12_ex3_GenericStack false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.367
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.368
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.369
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch13_ex1_NameParser false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.369
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.370
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.371
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch13_ex2_FutureValue false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.371
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.372
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.373
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch14_ex1_Invoice false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.373
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.374
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.375
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch14_ex2_AgeCalculator false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.375
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.376
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.377
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch15_ex1_CustomerManager false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.377
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.378
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.379
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch15_ex2_ProductManager false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.380
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.381
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.382
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch15_ex3_ProductManager false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.382
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.383
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.384
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch16_ex1_ExceptionTester false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.385
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.386
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.387
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch16_ex2_ResourcesTester false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.388
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.389
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.390
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch16_ex3_CustomTester false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.391
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.392
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.393
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch17_ex1_MPGFX false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.393
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.394
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.395
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch17_ex2_MPGFXML false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.395
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.396
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.397
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch18_ex1_FutureValue false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.397
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.398
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.399
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch18_ex2_AreaAndPerimeter false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.399
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.401
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.402
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch19_ex1_FutureValue false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.402
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.403
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.404
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch19_ex2_PizzaOrder false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.404
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.406
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.406
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch21_ex1_DBTester false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.407
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.409
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.409
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch21_ex2_ProductManager false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.410
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.412
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.413
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch22_ex1_BookCatalog false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.413
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.415
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.415
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch22_ex2_BookCatalog false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.416
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.417
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.418
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch23_ex1_Counter false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.418
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.419
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.420
+!MESSAGE buffering callback sts4.classpath.VnskuQCT ch23_ex2_Counter false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.420
+!MESSAGE executing callback sts4.classpath.VnskuQCT 93 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-29 10:34:24.543
+!MESSAGE executing callback sts4.classpath.VnskuQCT SUCCESS [done]
